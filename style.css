@@ -10,7 +10,7 @@ body {
   flex-direction: column;
   align-items: center;
   min-height: 100vh; /* Гарантирует, что тело займет как минимум всю высоту видового экрана */
-  background-color: #f1f1f1;
+  background-color: #e6e5e5;
 }
 
 .container {
@@ -23,7 +23,7 @@ body {
 
 .header {
   padding-top: 46px;
-  background-color: #f1f1f1;
+  background-color: #e6e5e5;
 }
 
 .header-nav {

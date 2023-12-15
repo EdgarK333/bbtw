@@ -6,7 +6,7 @@ body {
   color: #000;
   max-width: 100%;
   overflow-x: hidden;
-  background-color: #f1f1f1;
+  background-color: #e6e5e5;
   overflow-x: hidden;
 }
 
@@ -125,7 +125,7 @@ body {
 
 .about-block {
   margin-top: -60px;
-  background-color: #f1f1f1;
+  background-color: #e6e5e5;
   height: auto;
 }
 
