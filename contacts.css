@@ -7,7 +7,6 @@ body {
   max-width: 100%;
   overflow-x: hidden;
   background-color: #e6e5e5;
-  
 }
 
 .container {
@@ -27,16 +26,16 @@ body {
   justify-content: space-between;
   align-items: flex-end;
   margin-bottom: 76px;
-  align-items: center; /* Align vertically in the center */
+  align-items: center;
 }
 
 .logo {
-  display: flex; /* Make the logo a flex container */
-  align-items: center; /* Center the items vertically in the logo container */
+  display: flex;
+  align-items: center;
 }
 
 .logo-text {
-  margin-left: 30px; /* Adjust the margin as needed */
+  margin-left: 30px;
 }
 
 .logo span {
@@ -51,7 +50,6 @@ body {
   position: relative;
   padding: 0 12px 3px 0;
   border-radius: 10px;
-  /* border: 1px solid black; */
 
   line-height: 1;
 }
@@ -196,7 +194,6 @@ body {
 /* Footer */
 
 .foot {
-  
   font-weight: 400;
   font-size: 14px;
   color: #2e2c2c;
@@ -223,6 +220,6 @@ body {
 
 .foot p a,
 .foot p b a {
-  text-decoration: none !important; /* !important используется для усиления приоритета стиля */
+  text-decoration: none !important;
   color: inherit !important;
 }

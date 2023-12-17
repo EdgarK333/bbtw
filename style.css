@@ -9,7 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 100vh; /* Гарантирует, что тело займет как минимум всю высоту видового экрана */
+  min-height: 100vh;
   background-color: #e6e5e5;
 }
 
@@ -70,9 +70,9 @@ body {
 }
 
 .header-content {
-  margin-right: 0; /* Удаление правого отступа */
-  text-align: center; /* Выравнивание текста по центру */
-  width: 75%; /* Занимает всю ширину */
+  margin-right: 0;
+  text-align: center;
+  width: 75%;
   box-sizing: border-box;
 }
 
@@ -110,129 +110,4 @@ body {
 .header-text-row p {
   font-size: 16px;
   font-weight: 400;
-}
-
-/* .header-text h3 {
-  font-weight: 600;
-  font-size: 24px;
-}
-
-.header-text p {
-  font-weight: 400;
-  font-size: 16px;
-  padding-top: 10px;
-  margin-left: 25px;
-}
-
-.header-text li {
-  font-weight: 400;
-  font-size: 16px;
-  padding-top: 10px;
-  margin-left: 25px;
-} */
-
-/* Contacts */
-
-.contacts {
-  padding: 90px 0;
-  text-align: center;
-}
-
-.contacts-title {
-  margin-bottom: 40px;
-}
-
-.contacts-title h2 {
-  font-size: 34px;
-  font-weight: 600;
-}
-
-.contacts-content {
-  margin: 0 auto 40px;
-  max-width: 480px;
-}
-
-.contacts-content p {
-  font-size: 18px;
-  font-weight: 400;
-}
-
-.contacts-button {
-  margin-bottom: 80px;
-}
-.btn {
-  display: inline-block;
-  padding: 7px 22px;
-  border-radius: 30px;
-  background-color: #070707;
-  transition: background-color 0.2s ease-in, top 02s ease-in;
-}
-
-.btn:hover,
-.btn:focus {
-  background-color: #2e2c2c;
-}
-
-.btn:active {
-  position: relative;
-  background-color: #000000;
-  top: 1px;
-}
-
-.contacts-button a {
-  font-size: 18px;
-  color: #fff;
-}
-
-.contacts-socials {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  column-gap: 67px;
-  margin-bottom: 41px;
-}
-
-.contacts-socials img {
-  width: 40px;
-  height: 40px;
-}
-
-.contacts-footer p {
-  font-size: 14px;
-  font-weight: 400;
-  color: #828282;
-}
-
-/* Footer */
-
-.foot {
-  background-color: #f1f1f1;
-  font-weight: 400;
-  font-size: 14px;
-  color: #2e2c2c;
-  padding: 20px 0;
-  width: 100%;
-}
-
-.foot * {
-  pointer-events: none;
-  cursor: default;
-}
-
-.foot-block {
-  display: flex;
-  justify-content: space-between;
-  text-decoration: none;
-}
-
-.foot p:not(.phone-number) {
-  cursor: default;
-  text-decoration: none;
-  color: #000;
-}
-
-.foot p a,
-.foot p b a {
-  text-decoration: none !important; /* !important используется для усиления приоритета стиля */
-  color: inherit !important;
 }
