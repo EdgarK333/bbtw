@@ -124,12 +124,7 @@ body {
 
 .prices-block {
   background-color: #e6e5e5;
-  height: 100vh;
   color: #000;
-}
-
-.prices-info {
-  padding-top: 10px;
 }
 
 .prices-info h1 {

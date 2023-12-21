@@ -51,7 +51,6 @@ body {
   position: relative;
   padding: 0 12px 3px 0;
   border-radius: 10px;
-
   line-height: 1;
 }
 
@@ -125,11 +124,10 @@ body {
 .about-block {
   margin-top: -60px;
   background-color: #e6e5e5;
-  height: auto;
 }
 
 .about-info {
-  padding-top: 25px;
+  padding-top: 5px;
 }
 
 .about-info h1 {
